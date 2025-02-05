@@ -128,11 +128,11 @@ body {
 }
 
 .menu li a {
-    padding-right: 60px;
+    margin-right: 60px;
 }
 
 .link li p {
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
 /* ========slide start========= */
