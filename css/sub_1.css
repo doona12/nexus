@@ -217,8 +217,6 @@ body {
     margin-bottom: 28px;
 }
 #section2 .swiper {
-    width: 90%;
-    margin: 0 auto;
     height: 100%;
 }
 #section2 .swiper-wrapper{
@@ -233,7 +231,7 @@ body {
 }
 #section2 .swiper-slide img {
     display: block;
-    width: 100%;
+    width: 340px;
     height: 144px;
 }
 
