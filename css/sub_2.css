@@ -437,7 +437,8 @@ body {
     background-color: #000;
     color: #fff;
 }
-.on{
+
+#gallery .on{
     margin-bottom: 5px;
 }
 
