@@ -436,6 +436,7 @@ body {
 #gallery>ul li a.selected {
     background-color: #000;
     color: #fff;
+    margin-bottom: 5px;
 }
 
 .gallery-thumb {
