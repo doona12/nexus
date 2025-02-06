@@ -419,7 +419,11 @@ body {
     display: flex;
 }
 
-#section3 #gallery .game_list{
+#section3 #gallery{
+    height: 543px;
+}
+
+#section3 #gallery .game_list {
     height: 543px;
     overflow: hidden;
 }
@@ -441,15 +445,15 @@ body {
 }
 
 
-#section3 #gallery .game_list li img:hover{
+#section3 #gallery .game_list li img:hover {
     opacity: 0.8;
 }
 
-#section3 #gallery .game_list li:hover .game_title{
+#section3 #gallery .game_list li:hover .game_title {
     font-weight: bold;
 }
 
-#section3 #gallery .game_list .game_title{
+#section3 #gallery .game_list .game_title {
     font-weight: 400;
 }
 
@@ -468,37 +472,45 @@ body {
     height: 543px;
     position: relative;
 }
+
 .sub_game {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 782px;
     height: 543px;
+    overflow: hidden;
 }
+
 .best_game .game_img_wrap {
     position: absolute;
     left: 20px;
     top: 20px;
-    
+
 }
-.best_game .img_wrap img{
-height: 543px;
-width: 100%;
-display: block;
+
+.best_game .img_wrap img {
+    height: 543px;
+    width: 100%;
+    display: block;
 }
+
 .best_game .game_text_wrap {
     position: absolute;
     left: 40px;
     bottom: 60px;
     font-size: 32px;
 }
+
 .best_game .game_text_wrap .best_text {
     color: red;
 }
+
 .best_game .game_text_wrap .game_title {
     color: white;
     padding-top: 15px;
 }
+
 .sub_game .game_text_wrap {
     text-align: center;
     font-size: 16px;
