@@ -386,6 +386,12 @@ body {
 #section3 .text_wrap p:hover{
    text-decoration: underline;
 }
+#section3 .line{
+    width: 1px;
+    height: 80px;
+    border-right: 1px solid #BBBBBB;
+    margin-top: 35px;
+}
 
 #section3 .nintendo,
 #section3 .ps{
