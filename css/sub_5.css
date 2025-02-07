@@ -187,7 +187,9 @@ body {
     top: 8px;
     cursor: pointer;
 }
-
+#section1 .search input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
 #section1 .search input {
     display: block;
     width: 100%;
