@@ -174,10 +174,9 @@ body {
 /* search */
 #section1 .search {
     border: 2px solid #B4B4B4;
-    padding: 16px 20px 16px 55px;
-    border-radius: 20px;
+    padding: 12px 20px 12px 55px;
+    border-radius: 30px;
     width: 473px;
-    height: 52px;
     margin: 0 auto;
     box-sizing: border-box;
     position: relative;
