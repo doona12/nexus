@@ -246,6 +246,12 @@ body {
     display: flex;
     border-bottom: 1px solid #000;
 }
+#section2 .clearfix a{
+    font-weight: 400;
+}
+#section2 .clearfix .selected{
+    font-weight: bold;
+}
 #section2 .flex_wrap a{
     display: block;
     margin-right: 20px;
