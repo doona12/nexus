@@ -132,6 +132,7 @@ body {
 }
 
 .menu li a {
+    display: block;
     margin-right: 60px;
 }
 
@@ -223,6 +224,7 @@ body {
 }
 
 #section1 .keywords a {
+    display: block;
     background-color: #F0F0F0;
     border-radius: 20px;
     padding: 5px 15px;
@@ -259,6 +261,7 @@ body {
     border: none;
 }
 #board .qna li a{   
+    display: block;
     font-weight: 550;
     display: inline-block;
     padding: 20px 0;
