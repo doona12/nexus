@@ -102,7 +102,7 @@ body {
 }
 
 #header .video_wrap {
-    background-color: pink;
+    background: url(../images/main/main_banner1.jpg)no-repeat center;
     position: absolute;
     height: 630px;
     width: 100%;
