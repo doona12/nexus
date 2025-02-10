@@ -78,7 +78,6 @@ html {
 }
 
 body {
-    /* font-family: 'Interop'; */
     font-family: "Pretendard Variable", "Pretendard", sans-serif;
     font-size: 20px;
     line-height: 28px;
@@ -102,12 +101,11 @@ body {
 }
 
 #header .video_wrap {
-    background: url(../images/main/main_banner1.jpg)no-repeat center;
     position: absolute;
-    height: 630px;
     width: 100%;
-    left: 0;
-    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    top: -20%;
     z-index: -1;
 }
 
@@ -244,17 +242,17 @@ body {
     transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1);
 }
 
-#section1 .sub_swiper .swiper-slide-next img,
+#section1 .sub_swiper .swiper-slide-next img{
+    transform: translate3d(-10px, 0px, -200px) rotateX(10deg) rotateY(10deg) scale(0.8);
+}
 #section1 .sub_swiper .swiper-slide-prev img {
-    transform: translate3d(0px, 0px, -200px) rotateX(10deg) rotateY(10deg) scale(0.9);
+    transform: translate3d(10px, 0px, -200px) rotateX(10deg) rotateY(-10deg) scale(0.8);
 }
 
 
 /* ===== 화살표 제거 =====*/
 #section1 .swiper-button-next:after,
-#section1 .swiper-rtl .swiper-button-prev:after {
-    display: none;
-}
+#section1 .swiper-rtl .swiper-button-prev:after,
 #section1 .swiper-button-prev:after,
 #section1 .swiper-rtl .swiper-button-next:after {
     display: none;
@@ -306,8 +304,6 @@ body {
     display: flex;
     padding-top: 85px;
 }
-
-
 
 #gallery .game_list li {
     overflow: hidden;
